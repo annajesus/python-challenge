@@ -71,6 +71,7 @@ print(f'Winner: {winner}')
 print('*-*-*-*-*-*-*-*-*-*-*-*-*-*')
 
 #Export and print results to text file
+output = ('Analysis','PyPoll_Analysis_Results.txt')
 file = open('PyPoll_Analysis_Results', 'w')
 file.write('Election Results''\n')
 file.write('*-*-*-*-*-*-*-*-*-*-*-*-*-*''\n')
